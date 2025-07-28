@@ -1,1 +1,1 @@
-# LLM-s
+# Rag-Ollama-Mistral
