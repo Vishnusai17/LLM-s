@@ -1,5 +1,4 @@
 # Rag-Ollama-Mistral
-Here’s a **professional README.md** for your GitHub repo:
 
 ---
 
@@ -66,6 +65,7 @@ pip install -r requirements.txt
 
 ```bash
 ollama pull mistral
+ollama pull nomic-embed-text
 ```
 
 ---
@@ -122,7 +122,8 @@ Sources: ['rules.pdf']
 
 ## 📸 Demo
 
-*(Add screenshots or a GIF demo here)*
+*<img width="1652" height="230" alt="image" src="https://github.com/user-attachments/assets/21e581b9-1753-43e5-8cb8-034b81b84124" />
+*
 
 ---
 
