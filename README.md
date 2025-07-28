@@ -41,8 +41,7 @@ A **fully local Retrieval-Augmented Generation (RAG) pipeline** built to query y
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/private-ai-brain.git
-cd private-ai-brain
+git clone (https://github.com/Vishnusai17/LLM-s.git)
 ```
 
 2. **Create a virtual environment**
