@@ -75,7 +75,7 @@ ollama pull mistral
 
 ```
 private-ai-brain/
-├── ingest.py          # Script to process and store documents
+├── populate_database.py          # Script to process and store documents
 ├── query_data.py      # Query interface for RAG
 ├── test_rag.py        # Basic tests for validation
 ├── get_embedding_function.py
@@ -92,7 +92,7 @@ private-ai-brain/
 Put your PDFs or text files in a folder (e.g., `data/`) and run:
 
 ```bash
-python ingest.py
+python populate_database.py
 ```
 
 ### 2. **Ask questions**
@@ -137,14 +137,3 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 MIT License.
 
----
-
-✅ Do you want me to also generate:
-
-* **requirements.txt** (with correct versions for LangChain, Ollama, Chroma)
-* **ingest.py** script for loading and embedding documents
-* **query\_data.py** script for answering questions
-* **FastAPI version** for a web API interface
-
-?
-Or should I make the **entire GitHub repo structure with code for you**?
